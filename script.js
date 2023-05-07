@@ -32,7 +32,11 @@ window.addEventListener('wheel', e => {
     currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
   }
 
-  sections[currentSectionIndex].scrollIntoView({ behavior: 'smooth' });
+  // sections[currentSectionIndex].scrollIntoView({ behavior: 'smooth' });
+  window.scroll({
+    top: sections[currentSectionIndex].offsetTop,
+    behavior: 'smooth'
+  });
 });
 
 
