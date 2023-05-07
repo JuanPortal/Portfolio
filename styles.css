@@ -1,0 +1,1079 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* COVER */
+
+.cover {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/cover_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-container {
+    background-color: #33010fdd;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: min(60%, 550px);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.profile h1 {
+    font-size: 40px;
+    transform: rotate(-5deg);
+}
+
+.profile h1::after {
+    content: '';
+    position: absolute;
+    /* top: 27px; */
+    top: 50px;
+    right: -40px;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+}
+
+.profile h1::before {
+    content: '';
+    position: absolute;
+    /* bottom: 27px; */
+    bottom: 50px;
+    left: -40px;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+}
+
+.profile h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.socials a i {
+    color: #fff;
+    font-size: 40px;
+}
+
+.socials a:nth-child(1) i:hover {
+    color: #C13584;
+}
+
+.socials a:nth-child(2) i:hover {
+    color: #000;
+}
+
+.socials a:nth-child(3) i:hover {
+    color: #0077b5;
+}
+
+.socials a:nth-child(4) i:hover {
+    color: #1DA1F2;
+}
+
+/* PROJECTS */
+
+.projects {
+    background-image: url('./images/projects_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.projects .projects-container {
+    background-color: #000000d6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projects .projects-container h2 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.project-previews {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-previews div {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.project-previews>div:nth-child(1) {
+    background-image: url('./images/project_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-previews>div:nth-child(2) {
+    background-image: url('./images/project_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-previews>div:nth-child(3) {
+    background-image: url('./images/project_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-previews>div:nth-child(4) {
+    background-image: url('./images/project_4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-description {
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-description h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.project-description:hover {
+    background-color: #ffffffd5;
+    color: #000;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    justify-content: center;
+}
+
+/* ABOUT ME */
+
+.aboutme {
+    background-image: url('./images/aboutme_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-container {
+    background-color: #000000d6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.aboutme-container h2 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.info {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.info table {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 40px;
+}
+
+.info table tr td:first-child {
+    font-weight: 700;
+}
+
+.info table tr td:last-child {
+    padding-left: 10px;
+}
+
+.info .about {
+    width: 55%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+/* SKILLS */
+
+.skills {
+    background-image: url('./images/skills_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container {
+    background-color: #000000d6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.skills-container h2 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.skill-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.skill-set .progress-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-set .progress-bar .bar {
+    width: 500px;
+    height: 35px;
+    background-color: #000000d6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.skill-set .progress-bar .bar .progress {
+    width: 0%;
+    height: 100%;
+    transition: .4s ease-in-out;
+    background-color: #33010f;
+    border-radius: 10px 0 0 10px;
+}
+
+/* RESUME */
+
+.resume {
+    background-image: url('./images/resume_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-container {
+    background-color: #000000d6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffffd5;
+}
+
+.resume-container h2 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.timeline {
+    border-left: 8px solid #33010f;
+    padding-left: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline .experience {
+    position: relative;
+    background-color: #ffffffd5;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+  
+.timeline .experience::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #33010f;
+    border: 3px solid #ffffffd5;
+    position: absolute;
+    top: 50px;
+    left: -31px;
+}
+
+.timeline .experience::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ffffffd5 transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -16px;
+    top: 50px;
+}
+
+.resume-container a {
+    background-color: #33010f;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 0 #00000075;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.resume-container a:hover {
+    font-weight: 500;
+    box-shadow: 0 0 45px 0 #00000075;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    .projects .projects-container {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .project-previews {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-previews div {
+        width: 180px;
+        height: 180px;
+    }
+
+    .project-description h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 11px;
+    }
+
+    .info {
+        flex-direction: column;
+        font-size: 15px;
+        gap: 30px;
+    }
+
+    .info table {
+        width: 100%;
+    }
+
+    .info .about {
+        width: 100%;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .skill-set {
+        font-size: 20px;
+    }
+
+    .skill-set .progress-bar .bar {
+        width: 280px;
+    }
+
+}
+  
+@media only screen and (min-width: 600px) {
+    .projects .projects-container {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .project-previews {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-previews div {
+        width: 240px;
+        height: 240px;
+    }
+
+    .project-description h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 15px;
+    }
+
+    .info {
+        flex-direction: column;
+        font-size: 18px;
+        gap: 100px;
+    }
+
+    .info table {
+        width: 100%;
+    }
+
+    .info .about {
+        width: 100%;
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .skill-set {
+        font-size: 23px;
+    }
+
+    .skill-set .progress-bar .bar {
+        width: 340px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .profile {
+        height: 60%;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile h1 {
+        font-size: 20px;
+    }
+
+    .profile h1::after {
+        top: 25px;
+        right: -20px;
+        width: 15px;
+        height: 2px;
+    }
+    
+    .profile h1::before {
+        bottom: 25px;
+        left: -17px;
+        width: 15px;
+        height: 2px;
+    }
+
+    .profile h2 {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .socials a i {
+        font-size: 25px;
+    }
+
+    .projects .projects-container {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .projects .projects-container h2 {
+        font-size: 40px;
+    }
+
+    .project-previews {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .project-previews div {
+        width: 130px;
+        height: 130px;
+    }
+
+    .project-description h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 15px;
+    }
+
+    .aboutme-container h2 {
+        font-size: 40px;
+    }
+
+    .info {
+        flex-direction: column;
+        font-size: 10px;
+        gap: 30px;
+    }
+
+    .info table {
+        width: 100%;
+        line-height: 15px;
+    }
+
+    .info .about {
+        width: 100%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .skills-container h2 {
+        font-size: 40px;
+    }
+
+    .skill-set {
+        font-size: 12px;
+        gap: 13px;
+    }
+
+    .skill-set .progress-bar .bar {
+        width: 220px;
+        height: 20px;
+    }
+
+    .resume-container h2 {
+        font-size: 40px;
+    }
+
+    .timeline {
+        border-left: 2px solid #33010f;
+        padding-left: 10px;
+    }
+
+    .timeline .experience {
+        position: relative;
+        padding: 5px;
+        font-size: 6px;
+        border-radius: 10px;
+        line-height: 1.4;
+    }
+  
+    .timeline .experience::before {
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        position: absolute;
+        top: 17px;
+        left: -13px;
+    }
+    
+    .timeline .experience::after {
+        width: 0;
+        height: 0;
+        border-width: 5px;
+        position: absolute;
+        left: -10px;
+        top: 14px;
+    }
+
+    .resume-container a {
+        font-size: 7px;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .profile {
+        height: 60%;
+    }
+
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile h1 {
+        font-size: 30px;
+    }
+
+    .profile h1::after {
+        top: 37px;
+        right: -29px;
+        width: 25px;
+        height: 4px;
+    }
+    
+    .profile h1::before {
+        bottom: 37px;
+        left: -29px;
+        width: 25px;
+        height: 4px;
+    }
+
+    .profile h2 {
+        font-size: 15px;
+    }
+
+    .socials a i {
+        font-size: 32px;
+    }
+
+    .projects .projects-container {
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .projects .projects-container h2 {
+        font-size: 60px;
+    }
+
+    .project-previews {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .project-previews div {
+        width: 150px;
+        height: 150px;
+    }
+
+    .project-description h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 9px;
+    }
+
+    .aboutme-container h2 {
+        font-size: 60px;
+    }
+
+    .info {
+        flex-direction: row;
+        font-size: 10px;
+        gap: 30px;
+    }
+
+    .info table {
+        width: 45%;
+        line-height: 15px;
+    }
+
+    .info .about {
+        width: 55%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .skills-container h2 {
+        font-size: 60px;
+    }
+
+    .skill-set {
+        font-size: 20px;
+        gap: 13px;
+    }
+
+    .skill-set .progress-bar .bar {
+        width: 320px;
+        height: 23px;
+    }
+
+    .resume-container h2 {
+        font-size: 60px;
+    }
+
+    .timeline {
+        border-left: 4px solid #33010f;
+        padding-left: 10px;
+    }
+
+    .timeline .experience {
+        position: relative;
+        padding: 8px;
+        font-size: 8px;
+        border-radius: 10px;
+        line-height: 1.4;
+    }
+  
+    .timeline .experience::before {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        border: 2px solid #ffffffd5;
+        position: absolute;
+        top: 23px;
+        left: -17px;
+    }
+    
+    .timeline .experience::after {
+        width: 0;
+        height: 0;
+        border-width: 5px;
+        position: absolute;
+        left: -10px;
+        top: 23px;
+    }
+
+    .resume-container a {
+        font-size: 11px;
+        padding: 6px 12px;
+        border-radius: 7px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .profile {
+        width: min(60%, 550px);
+        height: 50%;
+    }
+
+    .profile img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile h1 {
+        font-size: 40px;
+    }
+
+    .profile h1::after {
+        top: 50px;
+        right: -40px;
+        width: 30px;
+        height: 4px;
+    }
+    
+    .profile h1::before {
+        bottom: 50px;
+        left: -40px;
+        width: 30px;
+        height: 4px;
+    }
+
+    .profile h2 {
+        font-size: 18px;
+    }
+
+    .socials a i {
+        font-size: 40px;
+    }
+
+    .projects .projects-container {
+        justify-content: space-evenly;
+    }
+
+    .projects .projects-container h2 {
+        font-size: 80px;
+    }
+
+    .project-previews {
+        flex-direction: row;
+    }
+
+    .project-previews div {
+        width: 300px;
+        height: 300px;
+    }
+
+    .project-description h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 16px;
+    }
+
+    .aboutme-container h2 {
+        font-size: 80px;
+    }
+
+    .info {
+        flex-direction: row;
+        font-size: 18px;
+    }
+
+    .info table {
+        width: 45%;
+        line-height: 40px;
+    }
+
+    .info .about {
+        width: 55%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .skills-container h2 {
+        font-size: 80px;
+    }
+
+    .skill-set {
+        font-size: 30px;
+        gap: 20px;
+    }
+
+    .skill-set .progress-bar .bar {
+        width: 500px;
+        height: 35px;
+    }
+
+    .resume-container h2 {
+        font-size: 80px;
+    }
+
+    .timeline {
+        border-left: 8px solid #33010f;
+        padding-left: 20px;
+    }
+
+    .timeline .experience {
+        position: relative;
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 10px;
+        line-height: 1.7;
+    }
+  
+    .timeline .experience::before {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 3px solid #ffffffd5;
+        position: absolute;
+        top: 50px;
+        left: -31px;
+    }
+    
+    .timeline .experience::after {
+        width: 0;
+        height: 0;
+        border-width: 8px;
+        position: absolute;
+        left: -16px;
+        top: 50px;
+    }
+
+    .resume-container a {
+        font-size: 20px;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 2160px) {
+    .profile {
+        width: min(60%, 550px);
+        height: 50%;
+    }
+
+    .profile img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .profile h1 {
+        font-size: 50px;
+    }
+
+    .profile h1::after {
+        top: 60px;
+        right: -40px;
+        width: 30px;
+        height: 5px;
+    }
+    
+    .profile h1::before {
+        bottom: 60px;
+        left: -39px;
+        width: 30px;
+        height: 5px;
+    }
+
+    .profile h2 {
+        font-size: 23px;
+    }
+
+    .socials a i {
+        font-size: 50px;
+    }
+
+    .projects .projects-container {
+        justify-content: space-evenly;
+    }
+
+    .projects .projects-container h2 {
+        font-size: 90px;
+    }
+
+    .project-previews {
+        flex-direction: row;
+    }
+
+    .project-previews div {
+        width: 370px;
+        height: 370px;
+    }
+
+    .project-description h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .project-description p {
+        font-size: 20px;
+    }
+
+    .aboutme-container h2 {
+        font-size: 90px;
+    }
+
+    .info {
+        flex-direction: row;
+        font-size: 23px;
+    }
+
+    .info table {
+        width: 45%;
+        line-height: 43px;
+    }
+
+    .info table tr td:last-child {
+        padding-left: 35px;
+    }
+
+    .info .about {
+        width: 55%;
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    .skills-container h2 {
+        font-size: 90px;
+    }
+
+    .skill-set {
+        font-size: 40px;
+        gap: 25px;
+    }
+
+    .skill-set .progress-bar .bar {
+        width: 600px;
+        height: 45px;
+    }
+
+    .resume-container h2 {
+        font-size: 90px;
+    }
+
+    .timeline {
+        border-left: 10px solid #33010f;
+        padding-left: 30px;
+    }
+
+    .timeline .experience {
+        position: relative;
+        padding: 20px 25px;
+        font-size: 20px;
+        border-radius: 10px;
+        line-height: 1.7;
+    }
+  
+    .timeline .experience::before {
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        border: 5px solid #ffffffd5;
+        position: absolute;
+        top: 67px;
+        left: -45px;
+    }
+    
+    .timeline .experience::after {
+        width: 0;
+        height: 0;
+        border-width: 15px;
+        position: absolute;
+        left: -29px;
+        top: 63px;
+    }
+
+    .resume-container a {
+        font-size: 25px;
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
