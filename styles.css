@@ -396,10 +396,6 @@
 /* RESPONSIVE */
 
 @media only screen and (max-width: 600px) {
-    h1{
-        color: red;
-    }
-
     .socials a i {
         color: #fff;
         font-size: 30px;
