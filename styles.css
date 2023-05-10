@@ -396,6 +396,19 @@
 /* RESPONSIVE */
 
 @media only screen and (max-width: 600px) {
+    h1{
+        color: red;
+    }
+
+    .socials a i {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .projects .projects-container h2 {
+        font-size: 60px;
+    }
+
     .projects .projects-container {
         justify-content: center;
         gap: 30px;
@@ -403,12 +416,12 @@
 
     .project-previews {
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
     }
 
     .project-previews div {
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 140px;
     }
 
     .project-description h3 {
@@ -418,6 +431,10 @@
 
     .project-description p {
         font-size: 11px;
+    }
+
+    .aboutme-container h2 {
+        font-size: 60px;
     }
 
     .info {
@@ -433,15 +450,25 @@
     .info .about {
         width: 100%;
         font-size: 15px;
-        line-height: 30px;
+        line-height: 25px;
+    }
+
+    .skills-container h2 {
+        font-size: 60px;
+        color: #fff;
     }
 
     .skill-set {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .skill-set .progress-bar .bar {
-        width: 280px;
+        width: 170px;
+        height: 20px;
+    }
+
+    .resume-container h2 {
+        font-size: 60px;
     }
 
 }
