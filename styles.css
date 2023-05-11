@@ -168,8 +168,9 @@
     color: transparent;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    transition: .4s ease-in-out;
 }
 
 .project-description h3 {
@@ -181,8 +182,6 @@
     background-color: #ffffffd5;
     color: #000;
     cursor: pointer;
-    transition: .4s ease-in-out;
-    justify-content: center;
 }
 
 /* ABOUT ME */
