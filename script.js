@@ -18,29 +18,6 @@ document.querySelector('.project-previews>div:nth-child(4)').addEventListener('c
 
 
 
-// Scroll 100vh
-
-const sections = document.querySelectorAll('section');
-let currentSectionIndex = 0;
-
-window.addEventListener('wheel', e => {
-  const scrollDirection = e.deltaY > 0 ? 'down' : 'up';
-
-  if (scrollDirection === 'down') {
-    currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
-  } else {
-    currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
-  }
-
-  sections[currentSectionIndex].scrollIntoView({ behavior: 'smooth' });
-  // window.scroll({
-  //   top: sections[currentSectionIndex].offsetTop,
-  //   behavior: 'smooth'
-  // });
-});
-
-
-
 // Obtaining the bar process
 
 const skills = document.querySelectorAll('.progress')
