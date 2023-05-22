@@ -5,7 +5,7 @@ document.querySelector('.project-previews>div:nth-child(1)').addEventListener('c
 })
 
 document.querySelector('.project-previews>div:nth-child(2)').addEventListener('click', ()=>{
-    window.open('https://github.com/JuanPortal/PKMarket', '_blank');
+    window.open('https://pkmarket.netlify.app', '_blank');
 })
 
 document.querySelector('.project-previews>div:nth-child(3)').addEventListener('click', ()=>{
