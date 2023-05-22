@@ -132,7 +132,7 @@ section {
     align-items: center;
 }
 
-.projects .projects-container h2 {
+.projects .projects-container h3 {
     font-size: 80px;
     color: #fff;
 }
@@ -183,7 +183,7 @@ section {
     transition: .4s ease-in-out;
 }
 
-.project-description h3 {
+.project-description h4 {
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -217,7 +217,7 @@ section {
     color: #fff;
 }
 
-.aboutme-container h2 {
+.aboutme-container h3 {
     font-size: 80px;
     color: #fff;
 }
@@ -277,7 +277,7 @@ section {
     color: #fff;
 }
 
-.skills-container h2 {
+.skills-container h3 {
     font-size: 80px;
     color: #fff;
 }
@@ -338,7 +338,7 @@ section {
     color: #ffffffd5;
 }
 
-.resume-container h2 {
+.resume-container h3 {
     font-size: 80px;
     color: #fff;
 }
@@ -409,7 +409,7 @@ section {
         font-size: 30px;
     }
 
-    .projects .projects-container h2 {
+    .projects .projects-container h3 {
         font-size: 60px;
     }
 
@@ -428,7 +428,7 @@ section {
         height: 140px;
     }
 
-    .project-description h3 {
+    .project-description h4 {
         font-size: 20px;
         margin-bottom: 10px;
     }
@@ -437,7 +437,7 @@ section {
         font-size: 9px;
     }
 
-    .aboutme-container h2 {
+    .aboutme-container h3 {
         font-size: 60px;
     }
 
@@ -457,7 +457,7 @@ section {
         line-height: 25px;
     }
 
-    .skills-container h2 {
+    .skills-container h3 {
         font-size: 60px;
         color: #fff;
     }
@@ -471,7 +471,7 @@ section {
         height: 20px;
     }
 
-    .resume-container h2 {
+    .resume-container h3 {
         font-size: 60px;
     }
 
@@ -498,7 +498,7 @@ section {
         height: 240px;
     }
 
-    .project-description h3 {
+    .project-description h4 {
         font-size: 30px;
         margin-bottom: 10px;
     }
@@ -560,7 +560,7 @@ section {
         height: 2px;
     }
 
-    .profile h2 {
+    .profile h3 {
         font-weight: 300;
         font-size: 12px;
     }
@@ -574,7 +574,7 @@ section {
         gap: 30px;
     }
 
-    .projects .projects-container h2 {
+    .projects .projects-container h3 {
         font-size: 40px;
     }
 
@@ -588,7 +588,7 @@ section {
         height: 130px;
     }
 
-    .project-description h3 {
+    .project-description h4 {
         font-size: 30px;
         margin-bottom: 10px;
     }
@@ -597,7 +597,7 @@ section {
         font-size: 15px;
     }
 
-    .aboutme-container h2 {
+    .aboutme-container h3 {
         font-size: 40px;
     }
 
@@ -618,7 +618,7 @@ section {
         line-height: 15px;
     }
 
-    .skills-container h2 {
+    .skills-container h3 {
         font-size: 40px;
     }
 
@@ -632,7 +632,7 @@ section {
         height: 20px;
     }
 
-    .resume-container h2 {
+    .resume-container h3 {
         font-size: 40px;
     }
 
@@ -702,7 +702,7 @@ section {
         height: 4px;
     }
 
-    .profile h2 {
+    .profile h3 {
         font-size: 15px;
     }
 
@@ -715,7 +715,7 @@ section {
         gap: 30px;
     }
 
-    .projects .projects-container h2 {
+    .projects .projects-container h3 {
         font-size: 60px;
     }
 
@@ -729,7 +729,7 @@ section {
         height: 150px;
     }
 
-    .project-description h3 {
+    .project-description h4 {
         font-size: 17px;
         margin-bottom: 10px;
     }
@@ -738,7 +738,7 @@ section {
         font-size: 9px;
     }
 
-    .aboutme-container h2 {
+    .aboutme-container h3 {
         font-size: 60px;
     }
 
@@ -759,7 +759,7 @@ section {
         line-height: 15px;
     }
 
-    .skills-container h2 {
+    .skills-container h3 {
         font-size: 60px;
     }
 
@@ -773,7 +773,7 @@ section {
         height: 23px;
     }
 
-    .resume-container h2 {
+    .resume-container h3 {
         font-size: 60px;
     }
 
@@ -845,7 +845,7 @@ section {
         height: 4px;
     }
 
-    .profile h2 {
+    .profile h3 {
         font-size: 18px;
     }
 
@@ -857,7 +857,7 @@ section {
         justify-content: space-evenly;
     }
 
-    .projects .projects-container h2 {
+    .projects .projects-container h3 {
         font-size: 80px;
     }
 
@@ -870,7 +870,7 @@ section {
         height: 300px;
     }
 
-    .project-description h3 {
+    .project-description h4 {
         font-size: 30px;
         margin-bottom: 10px;
     }
@@ -879,7 +879,7 @@ section {
         font-size: 16px;
     }
 
-    .aboutme-container h2 {
+    .aboutme-container h3 {
         font-size: 80px;
     }
 
@@ -899,7 +899,7 @@ section {
         line-height: 40px;
     }
 
-    .skills-container h2 {
+    .skills-container h3 {
         font-size: 80px;
     }
 
@@ -913,7 +913,7 @@ section {
         height: 35px;
     }
 
-    .resume-container h2 {
+    .resume-container h3 {
         font-size: 80px;
     }
 
@@ -985,7 +985,7 @@ section {
         height: 5px;
     }
 
-    .profile h2 {
+    .profile h3 {
         font-size: 23px;
     }
 
@@ -997,7 +997,7 @@ section {
         justify-content: space-evenly;
     }
 
-    .projects .projects-container h2 {
+    .projects .projects-container h3 {
         font-size: 90px;
     }
 
@@ -1010,7 +1010,7 @@ section {
         height: 370px;
     }
 
-    .project-description h3 {
+    .project-description h4 {
         font-size: 40px;
         margin-bottom: 10px;
     }
@@ -1019,7 +1019,7 @@ section {
         font-size: 20px;
     }
 
-    .aboutme-container h2 {
+    .aboutme-container h3 {
         font-size: 90px;
     }
 
@@ -1043,7 +1043,7 @@ section {
         line-height: 40px;
     }
 
-    .skills-container h2 {
+    .skills-container h3 {
         font-size: 90px;
     }
 
@@ -1057,7 +1057,7 @@ section {
         height: 45px;
     }
 
-    .resume-container h2 {
+    .resume-container h3 {
         font-size: 90px;
     }
 
