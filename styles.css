@@ -434,6 +434,12 @@ nav a:hover::after {
     box-shadow: 0 0 45px 0 #00000075;
 }
 
+/* NOTHING TO SEE HERE */
+
+.nothing-to-see-here {
+    display: none;
+}
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 359px) {
