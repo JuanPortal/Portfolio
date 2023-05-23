@@ -1,7 +1,7 @@
 // Directing the pictures to the projects
 
 document.querySelector('.project-previews>div:nth-child(1)').addEventListener('click', ()=>{
-    window.open('https://github.com/JuanPortal/Pokedex', '_blank');
+    window.open('https://pkdex-web.netlify.app/', '_blank');
 })
 
 document.querySelector('.project-previews>div:nth-child(2)').addEventListener('click', ()=>{
