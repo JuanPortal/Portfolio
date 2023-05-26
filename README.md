@@ -1,4 +1,4 @@
 Welcome to my Portfolio!
 
-![image](https://user-images.githubusercontent.com/78442505/236701184-18371bb6-91a1-4c46-b006-8342d02254c4.png)
+![image](https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/preview.webp?alt=media&token=42ac4a3c-f360-4611-9ecd-733277e58750)
 

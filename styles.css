@@ -21,7 +21,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./images/cover_bg.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/cover_bg.webp?alt=media&token=c46d6837-6b15-4ef4-94cb-5c9bdd301a7d');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -145,7 +145,7 @@ nav a:hover::after {
 /* PROJECTS */
 
 .projects {
-    background-image: url('./images/projects_bg.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/projects_bg.webp?alt=media&token=0bac2d48-f00d-46fe-a83c-8d93a83cd7bd');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -183,25 +183,25 @@ nav a:hover::after {
 }
 
 .project-previews>div:nth-child(1) {
-    background-image: url('./images/project_1.png');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/project_1.webp?alt=media&token=ed205d2d-a04c-49b6-a49b-3554401c5551');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .project-previews>div:nth-child(2) {
-    background-image: url('./images/project_2.png');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/project_2.webp?alt=media&token=88400a90-a8b5-4686-bd63-7e77f9c2cb41');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .project-previews>div:nth-child(3) {
-    background-image: url('./images/project_3.png');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/project_3.webp?alt=media&token=6c5012d3-7114-44cd-a20c-9bf6bd4ffdab');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .project-previews>div:nth-child(4) {
-    background-image: url('./images/project_4.png');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/project_4.webp?alt=media&token=13f2dc66-6ec0-4818-a351-e87823a3fefd');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -229,7 +229,7 @@ nav a:hover::after {
 /* ABOUT ME */
 
 .aboutme {
-    background-image: url('./images/aboutme_bg.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/aboutme_bg.webp?alt=media&token=92252617-3f78-49f6-ac0b-f4162c51e486');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -289,7 +289,7 @@ nav a:hover::after {
 /* SKILLS */
 
 .skills {
-    background-image: url('./images/skills_bg.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/skills_bg.webp?alt=media&token=404043a4-2cdb-4f0c-9b92-3d528fc4c9b9');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -350,7 +350,7 @@ nav a:hover::after {
 /* RESUME */
 
 .resume {
-    background-image: url('./images/resume_bg.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-1e947.appspot.com/o/resume_bg.webp?alt=media&token=c8b9b511-2b4a-4fc5-8d04-15cc432de049');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
