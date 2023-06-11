@@ -17,7 +17,6 @@ document.querySelector('.project-previews>div:nth-child(4)').addEventListener('c
 })
 
 
-
 // Obtaining the bar process
 
 const skills = document.querySelectorAll('.progress')
