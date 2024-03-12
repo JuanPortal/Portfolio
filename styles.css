@@ -459,7 +459,7 @@ nav a:hover::after {
     }
 
     .profile h1 {
-        font-size: 33px;
+        font-size: 30px;
     }
 
     .profile h1::after {
@@ -579,6 +579,12 @@ nav a:hover::after {
     }
 }
 
+@media only screen and (max-width: 319px) {
+    .profile h1 {
+        font-size: 25px;
+    }
+}
+
 @media only screen and (min-width: 360px) and (max-width: 600px) {
     nav {
         width: 100%;
@@ -594,6 +600,10 @@ nav a:hover::after {
 
     header {
         gap: 20px;
+    }
+
+    .profile h1 {
+        font-size: 30px;
     }
 
     .socials a i {
