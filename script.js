@@ -13,7 +13,7 @@ document.querySelector('.project-previews>div:nth-child(3)').addEventListener('c
 })
 
 document.querySelector('.project-previews>div:nth-child(4)').addEventListener('click', ()=>{
-    window.open('https://juanportal.github.io/DiscordBots/', '_blank');
+    window.open('https://mydiscordbots.netlify.app/', '_blank');
 })
 
 
