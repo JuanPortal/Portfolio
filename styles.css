@@ -9,6 +9,7 @@ html {
 }
 
 section {
+    min-height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
     scroll-behavior: smooth;
@@ -208,6 +209,7 @@ nav a:hover::after {
 .project-description {
     color: transparent;
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
